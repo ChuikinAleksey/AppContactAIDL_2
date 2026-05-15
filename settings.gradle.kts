@@ -23,7 +23,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "AppContactAIDL_2"
-include(":app_client")
-include(":app_server")
 include(":aidl")
+include(":app_server")
+include(":app_client")
 

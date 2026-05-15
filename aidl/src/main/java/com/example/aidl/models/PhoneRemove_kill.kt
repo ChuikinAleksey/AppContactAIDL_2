@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class PhoneRemove(
+data class PhoneRemove_kill(
     val deletedCount: Int,
     val message: String
 ) : Parcelable
